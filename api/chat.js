@@ -1,6 +1,6 @@
 // /api/chat.js
 export default async function handler(req, res) {
-  const apiKey = process.env.cwyopenai;
+  const apiKey = process.env.cwy_open_ai;
 
   const response = await fetch('https://api.openai.com/v1/chat/completions', {
     method: 'POST',
