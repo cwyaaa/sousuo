@@ -1,0 +1,20 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",  // 启动脚本，Vercel会自动使用此脚本
+    "dev": "node server.js",    // 开发模式下可用脚本
+    "test": "echo \"Error: no test specified\" && exit 1"  // 可用于测试，如果没有测试可以留空或删除
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "openai": "^4.96.0"
+  },
+  "devDependencies": {},
+  "description": "AI powered application with Express and OpenAI API"
+}
